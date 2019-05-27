@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Nav from './Nav';
 import Header from './Header';
 import Home from '../Home/Home';
@@ -8,10 +9,15 @@ import Ask from '../Ask/Ask';
 function App() {
   return (
     <div className="App">
-      <Header
-      />
-      <Nav
-      />
+      <Router>
+
+        <Header />
+        <Nav />
+
+        <Route path="/" exact component={Home} />
+        <Route path="/Ask" component={Ask} />
+
+      </Router>
     </div>
   );
 }
