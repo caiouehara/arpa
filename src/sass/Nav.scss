@@ -5,6 +5,8 @@
     .menu{
         display: flex;
         justify-content: space-around;
-        
+        p{
+            text-decoration: none;
+        }
     }
 }

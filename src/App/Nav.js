@@ -7,6 +7,7 @@ function Nav() {
       <div className="menu">
         <Link to="/"><p>Home</p></Link>
         <Link to="/Ask"><p>Ask</p></Link>
+        <Link to="/Contact"><p>Contact</p></Link>
       </div>
     </div>
   );
