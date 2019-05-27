@@ -8,9 +8,12 @@ import Ask from '../Ask/Ask';
 function App() {
   return (
     <div className="App">
+      <Header
+      />
+      <Nav
+      />
     </div>
   );
 }
 
 export default App;
-  
